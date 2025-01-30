@@ -26,13 +26,3 @@
     pip install django-crispy-forms
     pip install crispy-bootstrap5
 
-- Install dotenv to set venv in os :
-    pip install python-dotenv
-
-- Load environnement variable :
-    from dotenv import load_dotenv
-    load_dotenv()
-
-- Acces to venv : 
-    import os
-    SECRET_KEY = os.getenv('VARIABLE_NAME')
