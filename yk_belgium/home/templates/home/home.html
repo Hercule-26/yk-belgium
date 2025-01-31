@@ -1,13 +1,16 @@
 {% extends "_base.html" %}
 {% load crispy_forms_tags %}
+{% load i18n %}
 
 {% block head %}
-    <title>Bienvenue</title>
+    <title>{% trans "Welcome" %}</title>
 {% endblock head %}
 
 {% block content %}
-    <h1 class="ps-3">Page en Français</h1>
-    
+    <div class="d-flex justify-content-center align-items-center">
+        <h1>{% trans "Welcome to my website" %}</h1>
+    </div>
+        
     {% for message in messages %}
         <div class="alert alert-{{ message.tags }}">
             {{ message }}
@@ -15,14 +18,14 @@
     {% endfor %}
 
     <hr class="my-4">
-    <div class="container" style="max-width: 600px;">
+    <div class="container" style="max-width: 600px; padding-bottom:15px;">
         <div class="text-center mb-4">
-            <h2>Formulaire de Contact</h2>
+            <h2>{% trans "Contact Form" %}</h2>
         </div>
         <form action="{% url 'home:send-form' %}" method="POST" class="mt-3">
             {% csrf_token %}
             {{ form|crispy }}
-            <button type="submit" class="btn btn-primary">Envoyer</button>
+            <button type="submit" class="btn btn-primary">{% trans "Send" %}</button>
         </form>
     </div>
 {% endblock content %}

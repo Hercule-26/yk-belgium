@@ -1,0 +1,20 @@
+msgid "Welcome to my website"
+msgstr "Bienvenue sur mon site"
+
+msgid "Welcome"
+msgstr "Bienvenue"
+
+msgid "Contact Form"
+msgstr "Formulaire de Contact"
+
+msgid "Your mail"
+msgstr "Votre email"
+
+msgid "Your message"
+msgstr "Votre message"
+
+msgid "Type your text here"
+msgstr "Ecrivez votre message ici..."
+
+msgid "Send"
+msgstr "Envoyer"
