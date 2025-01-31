@@ -1,6 +1,3 @@
-msgid "Welcome to my website"
-msgstr "Bienvenue sur mon site"
-
 msgid "Welcome"
 msgstr "Bienvenue"
 
