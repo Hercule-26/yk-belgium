@@ -5,8 +5,8 @@ msgstr ""
 msgid "Welcome"
 msgstr "Welkom"
 
-msgid "Contact Form"
-msgstr "Contactformulier"
+msgid "Contact Us"
+msgstr "Neem contact met ons op"
 
 msgid "Your mail"
 msgstr "Uw e-mail"
@@ -20,8 +20,8 @@ msgstr "Schrijf hier uw bericht..."
 msgid "Send"
 msgstr "Verzenden"
 
-msgid "Industrial Cleaning Service Proposal"
-msgstr "Voorstel van diensten in industriële reiniging"
+msgid "Cleaning Service Proposal"
+msgstr "Voorstel voor schoonmaakdiensten voor bedrijven"
 
 msgid "Service Proposal Text"
 msgstr ""
@@ -34,3 +34,39 @@ msgstr ""
 "Wij kijken uit naar uw reactie en blijven tot uw beschikking voor verdere informatie.\n\n"
 "Met vriendelijke groet,\n"
 "het YK-Belgium team."
+
+msgid "Have questions ?"
+msgstr "Heb je vragen ? Vul het onderstaande formulier in en we nemen snel contact met je op."
+
+msgid "Your trusted partner for business cleaning solutions."
+msgstr "Uw vertrouwde partner voor zakelijke schoonmaakoplossingen."
+
+
+
+
+msgid "Professional Cleaning Services for Businesses"
+msgstr "Professionele schoonmaakdiensten voor bedrijven"
+
+msgid "We provide top-notch cleaning services tailored to meet your company’s needs."
+msgstr "Wij bieden hoogwaardige schoonmaakdiensten op maat van uw bedrijf."
+
+msgid "Learn More"
+msgstr "Meer info"
+
+msgid "Office Cleaning"
+msgstr "Kantoor schoonmaak"
+
+msgid "Keep your office sparkling clean and productive with our tailored services."
+msgstr "Houd uw kantoor brandschoon en productief met onze op maat gemaakte diensten."
+
+msgid "Industrial Cleaning"
+msgstr "Industriële schoonmaak"
+
+msgid "We specialize in deep cleaning for industrial spaces and factories."
+msgstr "Wij zijn gespecialiseerd in dieptereiniging voor industriële ruimtes en fabrieken."
+
+msgid "Window Cleaning"
+msgstr "Ramen wassen"
+
+msgid "Crystal-clear windows for a professional look."
+msgstr "Kristalheldere ramen voor een professionele uitstraling."

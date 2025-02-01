@@ -5,8 +5,8 @@ msgstr ""
 msgid "Welcome"
 msgstr "Bienvenue"
 
-msgid "Contact Form"
-msgstr "Formulaire de Contact"
+msgid "Contact Us"
+msgstr "Nous contacter"
 
 msgid "Your mail"
 msgstr "Votre email"
@@ -20,8 +20,8 @@ msgstr "Ecrivez votre message ici..."
 msgid "Send"
 msgstr "Envoyer"
 
-msgid "Industrial Cleaning Service Proposal"
-msgstr "Proposition de services en nettoyage industriel"
+msgid "Cleaning Service Proposal"
+msgstr "Proposition de services en nettoyage pour entreprise"
 
 msgid "Service Proposal Text"
 msgstr ""
@@ -34,3 +34,38 @@ msgstr ""
 "Dans l'attente de votre retour, nous restons à votre disposition pour toute information complémentaire.\n\n"
 "Cordialement,\n"
 "l'équipe YK-Belgium."
+
+msgid "Have questions ?"
+msgstr "Vous avez des questions ? Remplissez le formulaire ci-dessous et nous vous répondrons rapidement."
+
+
+
+msgid "Your trusted partner for business cleaning solutions."
+msgstr "Votre partenaire de confiance pour les solutions de nettoyage professionnel."
+
+msgid "Professional Cleaning Services for Businesses"
+msgstr "Services de nettoyage professionnel pour les entreprises"
+
+msgid "We provide top-notch cleaning services tailored to meet your company’s needs."
+msgstr "Nous offrons des services de nettoyage de haute qualité adaptés aux besoins de votre entreprise."
+
+msgid "Learn More"
+msgstr "En savoir plus"
+
+msgid "Office Cleaning"
+msgstr "Nettoyage de bureaux"
+
+msgid "Keep your office sparkling clean and productive with our tailored services."
+msgstr "Gardez vos bureaux impeccables et productifs grâce à nos services sur mesure."
+
+msgid "Industrial Cleaning"
+msgstr "Nettoyage industriel"
+
+msgid "We specialize in deep cleaning for industrial spaces and factories."
+msgstr "Nous sommes spécialisés dans le nettoyage en profondeur des espaces industriels et des usines."
+
+msgid "Window Cleaning"
+msgstr "Nettoyage de vitres"
+
+msgid "Crystal-clear windows for a professional look."
+msgstr "Des vitres impeccables pour une apparence professionnelle."
