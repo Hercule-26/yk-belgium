@@ -151,6 +151,6 @@ EMAIL_PORT = 587  # Le port pour TLS (587 pour TLS, 465 pour SSL)
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'ton_email@gmail.com'
 EMAIL_HOST_PASSWORD = 'ton_mot_de_passe'
-DEFAULT_FROM_EMAIL = EMAIL_HOST_USER  # L'email d'envoi
+DEFAULT_FROM_EMAIL = ""
 
 EMAIL_RECIPIENT = 'cakirgenc64@gmail.com'
