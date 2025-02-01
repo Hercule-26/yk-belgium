@@ -1,3 +1,7 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
 msgid "Welcome"
 msgstr "Welkom"
 
@@ -15,3 +19,18 @@ msgstr "Schrijf hier uw bericht..."
 
 msgid "Send"
 msgstr "Verzenden"
+
+msgid "Industrial Cleaning Service Proposal"
+msgstr "Voorstel van diensten in industriële reiniging"
+
+msgid "Service Proposal Text"
+msgstr ""
+"Geachte heer, mevrouw,\n"
+"Met 15 jaar ervaring in de industriële schoonmaaksector staan mijn team en ik klaar om onze expertise en betrouwbaarheid tot uw dienst te stellen.\n"
+"Wij zetten ons in om u een kwalitatieve en betrouwbare service te bieden, volledig afgestemd op uw behoeften.\n"
+"Wij begrijpen dat het veranderen van dienstverlener vragen kan oproepen. Toch zijn wij ervan overtuigd dat de kwaliteit van onze diensten en onze concurrerende prijzen u zullen overtuigen.\n"
+"Waarom zou u meer betalen voor dezelfde of zelfs mindere prestaties? Probeer onze diensten uit en u zult niet teleurgesteld zijn!\n"
+"Wij stellen voor om een afspraak te maken, zodat wij onze diensten in detail aan u kunnen presenteren en uw specifieke behoeften kunnen bespreken.\n"
+"Wij kijken uit naar uw reactie en blijven tot uw beschikking voor verdere informatie.\n\n"
+"Met vriendelijke groet,\n"
+"het YK-Belgium team."
