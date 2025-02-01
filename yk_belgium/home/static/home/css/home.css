@@ -1,0 +1,20 @@
+.language-selector {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.language-selector a {
+    color: white;
+    text-decoration: none;
+    padding: 0 5px;
+}
+
+.language-selector span {
+    color: white;
+    padding: 0 5px;
+}

@@ -8,6 +8,9 @@ msgstr "Welkom"
 msgid "Contact Us"
 msgstr "Neem contact met ons op"
 
+msgid "Our Services"
+msgstr "Onze Diensten"
+
 msgid "Your mail"
 msgstr "Uw e-mail"
 
