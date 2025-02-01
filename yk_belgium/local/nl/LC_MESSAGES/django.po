@@ -5,6 +5,9 @@ msgstr ""
 msgid "Welcome"
 msgstr "Welkom"
 
+msgid "Company type"
+msgstr "BV"
+
 msgid "Contact Us"
 msgstr "Neem contact met ons op"
 

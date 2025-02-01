@@ -5,6 +5,9 @@ msgstr ""
 msgid "Welcome"
 msgstr "Bienvenue"
 
+msgid "Company type"
+msgstr "SRL"
+
 msgid "Contact Us"
 msgstr "Nous contacter"
 

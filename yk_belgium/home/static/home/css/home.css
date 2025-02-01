@@ -18,3 +18,15 @@
     color: white;
     padding: 0 5px;
 }
+
+.srl-text {
+    font-size: 0.35em;
+    position: relative;
+    top: 5px;
+}
+
+.srl-text-footer {
+    font-size: 0.5em;
+    position: relative;
+    top: 4px;
+}
