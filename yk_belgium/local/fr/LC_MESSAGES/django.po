@@ -44,6 +44,11 @@ msgstr ""
 msgid "Have questions ?"
 msgstr "Vous avez des questions ? Remplissez le formulaire ci-dessous et nous vous répondrons rapidement."
 
+msgid "Your message has been sent successfully!"
+msgstr "Votre message a été envoyé avec succès !"
+
+msgid "An error occurred while sending your message. Please try again later."
+msgstr "Une erreur est survenue lors de l'envoi de votre message. Veuillez réessayer plus tard."
 
 
 msgid "Your trusted partner for business cleaning solutions."

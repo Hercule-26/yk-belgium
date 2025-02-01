@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from django.views.generic import TemplateView
 from .forms import ContactForm
 from django.contrib import messages
+from django.utils.translation import gettext_lazy as _
 
 from .contact import contact
 class HomeView(TemplateView):
@@ -23,17 +24,10 @@ def contact_view(request):
             message_content = f"Email: {email} \n\nMessage: {message}"
 
             email_sent = contact(subject, message_content)
-            referer = request.META.get('HTTP_REFERER', '')  # URL de la page précédente
             if email_sent:
-                if referer == 'be-fr/':
-                    messages.success(request, "Votre message a été envoyé avec succès !")
-                else:
-                    messages.success(request, "Je bericht is succesvol verzonden!")
+                messages.success(request, _("Your message has been sent successfully!"))
             else:
-                if referer == 'be-fr/':
-                    messages.warning(request, "Une erreur est survenue lors de l'envoi de votre message. Veuillez réessayer plus tard.")
-                else:
-                    messages.warning(request, "Er is een fout opgetreden tijdens het verzenden van je bericht. Probeer het later nog eens.")
+                messages.warning(request, _("An error occurred while sending your message. Please try again later."))
     else:
         form = ContactForm()
         

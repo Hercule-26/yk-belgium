@@ -44,11 +44,17 @@ msgstr ""
 msgid "Have questions ?"
 msgstr "Heb je vragen ? Vul het onderstaande formulier in en we nemen snel contact met je op."
 
+msgid "Your message has been sent successfully!"
+msgstr "Je bericht is succesvol verzonden!"
+
+msgid "An error occurred while sending your message. Please try again later."
+msgstr "Er is een fout opgetreden tijdens het verzenden van je bericht. Probeer het later nog eens."
+
+
+
+
 msgid "Your trusted partner for business cleaning solutions."
 msgstr "Uw vertrouwde partner voor zakelijke schoonmaakoplossingen."
-
-
-
 
 msgid "Professional Cleaning Services for Businesses"
 msgstr "Professionele schoonmaakdiensten voor bedrijven"
