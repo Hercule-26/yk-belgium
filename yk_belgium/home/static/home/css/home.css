@@ -30,3 +30,8 @@
     position: relative;
     top: 4px;
 }
+
+.card-img-top {
+    height: 200px; /* Ajuste selon tes besoins */
+    object-fit: cover;
+}
