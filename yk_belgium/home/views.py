@@ -4,7 +4,8 @@ from .forms import ContactForm
 from django.contrib import messages
 from django.utils.translation import gettext_lazy as _
 import logging
-from .contact import contact
+from .contact import send_email
+
 class HomeView(TemplateView):
     template_name = "home/home.html"
 
@@ -22,10 +23,10 @@ def contact_view(request):
             email = form.cleaned_data['email']
             message = form.cleaned_data['message']
             
-            subject = "Formulaire de contact"
-            message_content = f"Email: {email} \n\nMessage: {message}"
+            subject = "Message depuis le formulaire de contact"
+            message_content = f"Email: {email} \n\nMessage: \n{message}"
 
-            email_sent = contact(subject, message_content)
+            email_sent = send_email(subject, message_content)
             
             if email_sent:
                 messages.success(request, _("Your message has been sent successfully!"))

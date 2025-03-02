@@ -2,7 +2,9 @@ from django.core.mail import send_mail
 from django.conf import settings
 from datetime import datetime
 
-def contact(subject, message):
+from django.core.mail import send_mail
+
+def send_email(subject, message):
     try:
         send_mail(
             subject,
