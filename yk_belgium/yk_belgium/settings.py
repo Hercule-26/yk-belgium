@@ -20,6 +20,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 ALLOWED_HOSTS = ["*"]
 
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/5.1/howto/static-files/
+STATIC_URL = 'static/'
+
+STATICFILES_DIRS = [
+    BASE_DIR / "home/static",
+]
+
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
 # Application definition
@@ -120,14 +128,6 @@ LANGUAGES = [
 LOCALE_PATHS = [
     BASE_DIR / 'local/',
 ]
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/5.1/howto/static-files/
-
-STATIC_URL = 'static/'
-
-STATICFILES_DIRS = [
-    BASE_DIR / "home/static",
-]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
@@ -139,7 +139,7 @@ CRISPY_TEMPLATE_PACK = "bootstrap5"
 
 load_dotenv()
 
-DEBUG = os.getenv("DEBUG") == "True"
+DEBUG = os.getenv("DEBUG", "False").lower() == "true"
 
 # Secret Key
 SECRET_KEY = os.getenv("SECRET_KEY")
