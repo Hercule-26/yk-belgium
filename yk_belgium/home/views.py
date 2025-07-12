@@ -16,28 +16,24 @@ class HomeView(TemplateView):
 
 logger = logging.getLogger(__name__)
 
-def contact_view(request):
+def send_form(request):
+    form = ContactForm(request.POST or None)
+
     if request.method == 'POST':
-        form = ContactForm(request.POST)
         if form.is_valid():
             email = form.cleaned_data['email']
             message = form.cleaned_data['message']
-            
             subject = "Message depuis le formulaire de contact"
             message_content = f"Email: {email} \n\nMessage: \n{message}"
-
             email_sent = send_email(subject, message_content)
-            
             if email_sent:
                 messages.success(request, _("Your message has been sent successfully!"))
+                return redirect('home:send-form')  # ou une autre URL
             else:
-                logger.error(f"Failed to send email. Check logs file for more details")
+                logger.error("Failed to send email. Check logs file for more details")
                 with open('errors.log', 'a') as f:
                     f.write(f"Failed to send email.\nEmail Recipient: {email}\nMessage Content: {message}\n\n")
                 messages.warning(request, _("An error occurred while sending your message. Please try again later."))
         else:
-            messages.error(request, _("There was an issue with your form. Please try again."))
-    else:
-        form = ContactForm()
-
-    return redirect(request.META.get('HTTP_REFERER', 'contact'))
+            messages.error(request, _("There was an issue with your form. Please check your input."))
+    return render(request, 'home/home.html', {'form': form})

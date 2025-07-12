@@ -30,16 +30,20 @@
         </div>
     </header>
 
-    {% for message in messages %}
-        <div class="alert alert-{{ message.tags }}">
-            {{ message }}
-        </div>
-    {% endfor %}
-
+    {% if messages %}
+        {% for message in messages %}
+            {% if message.tags == 'error' %}
+                <div class="alert alert-danger">
+            {% else %}
+                <div class="alert alert-{{ message.tags }}">
+            {% endif %}
+                {{ message }}
+            </div>
+        {% endfor %}
+    {% endif %}
     
     {% block content %}
     {% endblock content %}
-
     
     <section id="contact" class="bg-light py-5">
         <div class="container">
@@ -64,7 +68,7 @@
                     <h5>YK-Belgium<span class="srl-text-footer"> {% trans "Company type" %}</span></h5>
                     <p>{% trans "Your trusted partner for business cleaning solutions." %}</p>
                     <div>TVA: BE1018.214.344</div>
-                    <div>GSM : 0470/48.26.02</div>
+                    <div>GSM : +32 470 48 26 02</div>
                 </div>
                 <div class="col-md-6 text-end">
                     <p>&copy; 2025 YK-Belgium<span style="font-size: 0.6em;"> {% trans "Company type" %}</span>. {% trans "All rights reserved." %}</p>

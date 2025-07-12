@@ -1,0 +1,161 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-12 13:58+0200\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: .\home\forms.py:7 .\home\forms.py:9
+msgid "Your mail"
+msgstr "Votre email"
+
+#: .\home\forms.py:13
+msgid "Your message"
+msgstr "Votre message"
+
+#: .\home\forms.py:14
+msgid "Type your text here"
+msgstr "Ecrivez votre message ici..."
+
+#: .\home\forms.py:32
+msgid "Your message contains forbidden content."
+msgstr "Votre message contient du contenu interdit."
+
+#: .\home\templates\home\home.html:14
+msgid "Professional Cleaning Services for Businesses"
+msgstr "Services de nettoyage professionnel pour les entreprises"
+
+#: .\home\templates\home\home.html:15
+msgid ""
+"We provide top-notch cleaning services tailored to meet your company’s needs."
+msgstr ""
+"Nous offrons des services de nettoyage de haute qualité adaptés aux besoins "
+"de votre entreprise."
+
+#: .\home\templates\home\home.html:16
+msgid "Learn More"
+msgstr "En savoir plus"
+
+#: .\home\templates\home\home.html:17 .\templates\_base.html:50
+msgid "Contact Us"
+msgstr "Nous contacter"
+
+#: .\home\templates\home\home.html:23
+msgid "Our Services"
+msgstr "Nos Services"
+
+#: .\home\templates\home\home.html:29
+msgid "Office Cleaning"
+msgstr "Nettoyage de bureaux"
+
+#: .\home\templates\home\home.html:30
+msgid ""
+"Keep your office sparkling clean and productive with our tailored services."
+msgstr ""
+"Gardez vos bureaux impeccables et productifs grâce à nos services sur mesure."
+
+#: .\home\templates\home\home.html:36 .\home\templates\home\home.html:38
+msgid "Industrial Cleaning"
+msgstr "Nettoyage industriel"
+
+#: .\home\templates\home\home.html:39
+msgid "We specialize in deep cleaning for industrial spaces and factories."
+msgstr ""
+"Nous sommes spécialisés dans le nettoyage en profondeur des espaces "
+"industriels et des usines."
+
+#: .\home\templates\home\home.html:45 .\home\templates\home\home.html:47
+msgid "Window Cleaning"
+msgstr "Nettoyage de vitres"
+
+#: .\home\templates\home\home.html:48
+msgid "Crystal-clear windows for a professional look."
+msgstr "Des vitres impeccables pour une apparence professionnelle."
+
+#: .\home\templates\home\home.html:58
+msgid "Cleaning Service Proposal"
+msgstr "Proposition de services en nettoyage pour entreprise"
+
+#: .\home\templates\home\home.html:59
+msgid "Service Proposal Text"
+msgstr ""
+"Madame, Monsieur,\n"
+"Forts de 15 ans d'expérience dans le secteur du nettoyage industriel, mon "
+"équipe et moi-même sommes prêts à mettre notre savoir-faire et notre "
+"professionnalisme à votre service.\n"
+"Nous nous engageons à vous offrir une prestation de qualité, fiable et "
+"adaptée à vos besoins.\n"
+"Nous comprenons que changer de prestataire peut soulever des interrogations. "
+"Toutefois, nous sommes convaincus que la qualité de nos services et nos "
+"tarifs compétitifs sauront vous convaincre.\n"
+"Pourquoi payer plus cher pour une prestation équivalente, voire inférieure ? "
+"Essayez nos services et vous ne serez pas déçu !\n"
+"Nous serions ravis de convenir d'un rendez-vous afin de vous présenter plus "
+"en détail notre offre et d'échanger sur vos besoins spécifiques.\n"
+"Dans l'attente de votre retour, nous restons à votre disposition pour toute "
+"information complémentaire.\n"
+"\n"
+"Cordialement,\n"
+"l'équipe YK-Belgium."
+
+#: .\home\views.py:30
+msgid "Your message has been sent successfully!"
+msgstr "Votre message a été envoyé avec succès !"
+
+#: .\home\views.py:36
+msgid "An error occurred while sending your message. Please try again later."
+msgstr ""
+"Une erreur est survenue lors de l'envoi de votre message. Veuillez réessayer "
+"plus tard."
+
+#: .\home\views.py:38
+msgid "There was an issue with your form. Please check your input."
+msgstr ""
+"Un problème est survenu avec votre formulaire. Veuillez vérifier votre "
+"saisie."
+
+#: .\templates\_base.html:19
+msgid "YK-Belgium Logo"
+msgstr ""
+
+#: .\templates\_base.html:22 .\templates\_base.html:68
+#: .\templates\_base.html:74
+msgid "Company type"
+msgstr "SRL"
+
+#: .\templates\_base.html:25
+msgid "FR"
+msgstr ""
+
+#: .\templates\_base.html:27
+msgid "NL"
+msgstr ""
+
+#: .\templates\_base.html:51
+msgid "Have questions ?"
+msgstr ""
+"Vous avez des questions ? Remplissez le formulaire ci-dessous et nous vous "
+"répondrons rapidement."
+
+#: .\templates\_base.html:57
+msgid "Send"
+msgstr "Envoyer"
+
+#: .\templates\_base.html:69
+msgid "Your trusted partner for business cleaning solutions."
+msgstr ""
+"Votre partenaire de confiance pour les solutions de nettoyage professionnel."
+
+#: .\templates\_base.html:74
+msgid "All rights reserved."
+msgstr ""
+
+#: .\yk_belgium\settings.py:124
+msgid "French"
+msgstr ""
+
+#: .\yk_belgium\settings.py:125
+msgid "Dutch"
+msgstr ""
+
+#~ msgid "Welcome"
+#~ msgstr "Bienvenue"

@@ -1,0 +1,155 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-12 13:57+0200\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: .\home\forms.py:7 .\home\forms.py:9
+msgid "Your mail"
+msgstr "Uw e-mail"
+
+#: .\home\forms.py:13
+msgid "Your message"
+msgstr "Uw bericht"
+
+#: .\home\forms.py:14
+msgid "Type your text here"
+msgstr "Schrijf hier uw bericht..."
+
+#: .\home\forms.py:32
+msgid "Your message contains forbidden content."
+msgstr "Uw bericht bevat verboden inhoud."
+
+#: .\home\templates\home\home.html:14
+msgid "Professional Cleaning Services for Businesses"
+msgstr "Professionele schoonmaakdiensten voor bedrijven"
+
+#: .\home\templates\home\home.html:15
+msgid ""
+"We provide top-notch cleaning services tailored to meet your company’s needs."
+msgstr "Wij bieden hoogwaardige schoonmaakdiensten op maat van uw bedrijf."
+
+#: .\home\templates\home\home.html:16
+msgid "Learn More"
+msgstr "Meer info"
+
+#: .\home\templates\home\home.html:17 .\templates\_base.html:50
+msgid "Contact Us"
+msgstr "Neem contact met ons op"
+
+#: .\home\templates\home\home.html:23
+msgid "Our Services"
+msgstr "Onze Diensten"
+
+#: .\home\templates\home\home.html:29
+msgid "Office Cleaning"
+msgstr "Kantoor schoonmaak"
+
+#: .\home\templates\home\home.html:30
+msgid ""
+"Keep your office sparkling clean and productive with our tailored services."
+msgstr ""
+"Houd uw kantoor brandschoon en productief met onze op maat gemaakte diensten."
+
+#: .\home\templates\home\home.html:36 .\home\templates\home\home.html:38
+msgid "Industrial Cleaning"
+msgstr "Industriële schoonmaak"
+
+#: .\home\templates\home\home.html:39
+msgid "We specialize in deep cleaning for industrial spaces and factories."
+msgstr ""
+"Wij zijn gespecialiseerd in dieptereiniging voor industriële ruimtes en "
+"fabrieken."
+
+#: .\home\templates\home\home.html:45 .\home\templates\home\home.html:47
+msgid "Window Cleaning"
+msgstr "Ramen wassen"
+
+#: .\home\templates\home\home.html:48
+msgid "Crystal-clear windows for a professional look."
+msgstr "Kristalheldere ramen voor een professionele uitstraling."
+
+#: .\home\templates\home\home.html:58
+msgid "Cleaning Service Proposal"
+msgstr "Voorstel voor schoonmaakdiensten voor bedrijven"
+
+#: .\home\templates\home\home.html:59
+msgid "Service Proposal Text"
+msgstr ""
+"Geachte heer, mevrouw,\n"
+"Met 15 jaar ervaring in de industriële schoonmaaksector staan mijn team en "
+"ik klaar om onze expertise en betrouwbaarheid tot uw dienst te stellen.\n"
+"Wij zetten ons in om u een kwalitatieve en betrouwbare service te bieden, "
+"volledig afgestemd op uw behoeften.\n"
+"Wij begrijpen dat het veranderen van dienstverlener vragen kan oproepen. "
+"Toch zijn wij ervan overtuigd dat de kwaliteit van onze diensten en onze "
+"concurrerende prijzen u zullen overtuigen.\n"
+"Waarom zou u meer betalen voor dezelfde of zelfs mindere prestaties? Probeer "
+"onze diensten uit en u zult niet teleurgesteld zijn!\n"
+"Wij stellen voor om een afspraak te maken, zodat wij onze diensten in detail "
+"aan u kunnen presenteren en uw specifieke behoeften kunnen bespreken.\n"
+"Wij kijken uit naar uw reactie en blijven tot uw beschikking voor verdere "
+"informatie.\n"
+"\n"
+"Met vriendelijke groet,\n"
+"het YK-Belgium team."
+
+#: .\home\views.py:30
+msgid "Your message has been sent successfully!"
+msgstr "Je bericht is succesvol verzonden!"
+
+#: .\home\views.py:36
+msgid "An error occurred while sending your message. Please try again later."
+msgstr ""
+"Er is een fout opgetreden tijdens het verzenden van je bericht. Probeer het "
+"later nog eens."
+
+#: .\home\views.py:38
+msgid "There was an issue with your form. Please check your input."
+msgstr "Er is een probleem met het formulier. Controleer uw invoer."
+
+#: .\templates\_base.html:19
+msgid "YK-Belgium Logo"
+msgstr ""
+
+#: .\templates\_base.html:22 .\templates\_base.html:68
+#: .\templates\_base.html:74
+msgid "Company type"
+msgstr "BV"
+
+#: .\templates\_base.html:25
+msgid "FR"
+msgstr ""
+
+#: .\templates\_base.html:27
+msgid "NL"
+msgstr ""
+
+#: .\templates\_base.html:51
+msgid "Have questions ?"
+msgstr ""
+"Heb je vragen ? Vul het onderstaande formulier in en we nemen snel contact "
+"met je op."
+
+#: .\templates\_base.html:57
+msgid "Send"
+msgstr "Verzenden"
+
+#: .\templates\_base.html:69
+msgid "Your trusted partner for business cleaning solutions."
+msgstr "Uw vertrouwde partner voor zakelijke schoonmaakoplossingen."
+
+#: .\templates\_base.html:74
+msgid "All rights reserved."
+msgstr ""
+
+#: .\yk_belgium\settings.py:124
+msgid "French"
+msgstr ""
+
+#: .\yk_belgium\settings.py:125
+msgid "Dutch"
+msgstr ""
+
+#~ msgid "Welcome"
+#~ msgstr "Welkom"

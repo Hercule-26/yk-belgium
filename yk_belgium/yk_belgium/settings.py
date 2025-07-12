@@ -126,7 +126,7 @@ LANGUAGES = [
 ]
 
 LOCALE_PATHS = [
-    BASE_DIR / 'local/',
+    BASE_DIR / 'locale/',
 ]
 
 # Default primary key field type
