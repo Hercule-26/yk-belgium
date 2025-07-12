@@ -8,3 +8,5 @@ __pycache__/
 
 # Ignore .env
 .env
+
+staticfiles/
